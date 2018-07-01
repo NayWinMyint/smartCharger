@@ -7,9 +7,9 @@ Ionic 2
 
 
 ## Installation 
-npm install
+`npm install`
 
 
 ## Running on real android device
-ionic cordova run android --device
+`ionic cordova run android --device`
 
