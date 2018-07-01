@@ -1,0 +1,30 @@
+<ion-header>
+  <!-- <ion-navbar>
+    <ion-title>Home</ion-title>
+  </ion-navbar> -->
+</ion-header>
+
+<ion-content padding>
+  <h2 class="subTitle">Battery status</h2>
+  <h2 class="title">{{status?.level}} %</h2>
+
+
+  <button ion-button [color]="'secondary'" [round]=true
+      [outline]="isOutline"
+      (click)="goToChargingScanner($event)">
+    Start Charging
+  </button>
+
+  <div class="divider">
+  </div>
+
+
+  <!-- <button ion-button [color]="'primary'" [round]=true
+      [outline]="isOutline"
+      (click)="goToBuyCredit($event)">
+    Buy Credit
+  </button> -->
+
+  <h5 class="caption">Available Credit</h5>
+  <h1 class="coinCaption">{{ava_Credit}}</h1>
+</ion-content>

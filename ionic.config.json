@@ -1,0 +1,8 @@
+{
+  "name": "smartCharger",
+  "app_id": "f8a4a5c1",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
