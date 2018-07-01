@@ -1,5 +1,5 @@
 # smartCharger
-A working prototype mobile phone app that charges the mobile phone by buying credit from the Blockchain network.
+A working prototype mobile phone app that charges the mobile phone by buying credit from the private Blockchain network.
 
 
 ## Requirement
